@@ -1,10 +1,10 @@
 # dcpu16
-A  DCPU-16 assembler &amp; emulator in C# See Readme.txt
+A  DCPU-16 assembler &amp; emulator in C#.
 
 DCPU-16 assembler and emulator, that was supposedly featured in n0tch's sandbox science 
 fiction video game called 0x10c. 
 
-Based on spec ver 1.7 
+Based on [spec ver 1.7](https://github.com/abkolan/dcpu16/blob/master/dcpu-1-7.txt)
 
 ## USAGE ##
 1. Create a binary dump of a DCPU 16 asm program 
