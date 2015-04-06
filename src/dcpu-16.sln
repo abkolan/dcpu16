@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{011FE2A4-EF9A-42AA-97E5-E0A6A30784AC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dcpu16", "dcpu16\dcpu16.csproj", "{0BF79F4E-58F6-40E6-BEC7-3AFA98EBFC86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dcpu16.tests", "dcpu16.tests\dcpu16.tests.csproj", "{77FE86FC-B823-4E84-8E20-8777CE8C5607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assembler", "assembler\assembler.csproj", "{6A8D2D72-9D78-4B3A-A1E3-E4E0B7B8036B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assembler.tests", "assembler.tests\assembler.tests.csproj", "{556D59AE-F478-49FC-A51D-4A8FDD3443C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emulator3", "emulator\emulator3.csproj", "{71D3F3A2-E0B9-4FDD-8E5D-41A7698DE0A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{621AB26D-9F8B-4120-82FB-1F38187D93C7}"
+	ProjectSection(SolutionItems) = preProject
+		..\dcpu-1-7.txt = ..\dcpu-1-7.txt
+		..\readme.txt = ..\readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BF79F4E-58F6-40E6-BEC7-3AFA98EBFC86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF79F4E-58F6-40E6-BEC7-3AFA98EBFC86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF79F4E-58F6-40E6-BEC7-3AFA98EBFC86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF79F4E-58F6-40E6-BEC7-3AFA98EBFC86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77FE86FC-B823-4E84-8E20-8777CE8C5607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FE86FC-B823-4E84-8E20-8777CE8C5607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FE86FC-B823-4E84-8E20-8777CE8C5607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FE86FC-B823-4E84-8E20-8777CE8C5607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A8D2D72-9D78-4B3A-A1E3-E4E0B7B8036B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8D2D72-9D78-4B3A-A1E3-E4E0B7B8036B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8D2D72-9D78-4B3A-A1E3-E4E0B7B8036B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8D2D72-9D78-4B3A-A1E3-E4E0B7B8036B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{556D59AE-F478-49FC-A51D-4A8FDD3443C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556D59AE-F478-49FC-A51D-4A8FDD3443C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556D59AE-F478-49FC-A51D-4A8FDD3443C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556D59AE-F478-49FC-A51D-4A8FDD3443C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D3F3A2-E0B9-4FDD-8E5D-41A7698DE0A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D3F3A2-E0B9-4FDD-8E5D-41A7698DE0A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D3F3A2-E0B9-4FDD-8E5D-41A7698DE0A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D3F3A2-E0B9-4FDD-8E5D-41A7698DE0A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
