@@ -34,5 +34,5 @@ framework is up and can be used to print a "hell oh! world"
 - MLI, DVI, MDI,SHR, IFA,IFU, ADX, SBX are not implemented.
 - And a lot of unknown issues.
 
-##HUGS & BUGS##
+## HUGS & BUGS ##
 [abkolan@gmail.com](mailto:abkolan@gmail.com "email me") | [@abkolan ](http://twitter.com/abkolan "Tweet!")
